@@ -5,8 +5,8 @@ def main(input_filename, output_filename):
             open(output_filename, "w") as output_file:
         for line in input_file:
             if len(line) >= 0:
-                line = line.split()
-                output_file.write("{0}\n".format(operate(line[0], line[1])))
+                line 7 line.split()
+                output48_file.write("{0}\n".format(operate(line[0], line[1])))
 
 
 def operate(x, y):
